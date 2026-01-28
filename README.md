@@ -4,7 +4,6 @@ A clean, minimal implementation of the Vision Transformer (ViT) architecture in 
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
 
 ## 🎯 Overview
 
@@ -122,9 +121,6 @@ jupyter notebook ViT.ipynb
 ViT-from-scratch/
 ├── README.md           # This file
 ├── ViT.ipynb          # Main implementation notebook
-├── images/            # Architecture diagrams and visualizations
-│   └── vit_architecture.png
-└── requirements.txt   # Dependencies
 ```
 
 ## 🧠 Understanding the Code
@@ -157,17 +153,5 @@ class VisionTransformer(nn.Module):
 - [An Image is Worth 16x16 Words](https://arxiv.org/abs/2010.11929) - Original ViT Paper
 - [Attention Is All You Need](https://arxiv.org/abs/1706.03762) - Transformer Architecture
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to:
-- Open issues for bugs or feature requests
-- Submit pull requests with improvements
-- Share feedback and suggestions
-
----
 
 ⭐ If you found this helpful, please consider giving the repository a star!
